@@ -17,10 +17,7 @@ def generate_launch_description():
         package="teleop_twist_keyboard",
         executable="teleop_twist_keyboard",
         name="teleop_twist_keyboard",
-        prefix='xterm -e',
-        output='screen',
-        emulate_tty=True,
-        arguments=[('__log_level:=debug')]
+        prefix='xterm -e'
     )
 
     return LaunchDescription(
